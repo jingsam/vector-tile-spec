@@ -22,7 +22,7 @@
 
 矢量瓦片表示的是投影在正方形区块上的数据。矢量瓦片**不应该**包含范围和投影信息。解码方被假定知道矢量瓦片的范围和投影信息。
 
-[Web Mercator](https://en.wikipedia.org/wiki/Web_Mercator)是默认的投影方式，[Google tile scheme](http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/)是默认的瓦片编号方式。两者一起完成了与任意范围、任意精度的地理区域的一一对应，例如`https://example.com/17/65535/43602.mvt`。
+[Web Mercator](https://en.wikipedia.org/wiki/Web_Mercator)是默认的投影方式，[Google tile schema](http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/)是默认的瓦片编号方式。两者一起完成了与任意范围、任意精度的地理区域的一一对应，例如`https://example.com/17/65535/43602.mvt`。
 
 矢量瓦片**可以**用来表示任意投影方式、任意瓦片编号方案的数据。
 
